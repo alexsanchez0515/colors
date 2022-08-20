@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&family=Montserrat&family=Sacramento&display=swap');
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0F3D3E;
+    color: #F1F1F1;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    text-shadow: 3px 3px black;
+}
+.heading-description {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+    
+}
+.themed-colors {
+    background-color: #E2DCC8;
+    border-radius: 14px;
+    padding: 0.6rem;
+    margin-bottom: 50px;
+    width: 100vw;
+}
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #100f0f;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: 0;
+    padding: 0.3rem;
+}
+.nav-bar {
+    background-color: #100f0f;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav-bar, ul {
+    margin-top: 0;
+}
+.listitems {
+    display: inline-block;
+    padding: 1.5rem;
+    font-family: 'Montserrat', sans-serif; 
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    color: #E2DCC8;
+}
+.listitems a {
+    color: #E2DCC8;
+    text-decoration: none;
+}
+.listitems a:hover {
+    transition: 0.7s;
+    font-size: 1.2rem;
+}
+
+.team-colors {
+    background-color: #E2DCC8;
+    border-radius: 14px;
+    padding: 0.4rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container {
+    /* border: 1px solid black;
+    border-radius: 20px; */
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: 2px 2px #100f0f;
+    min-width: 400px;
+    max-width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+/************************Arizona Color Theme*************************/
+.arizona-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.arizona-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #541690;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.arizona-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #FF4949;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.arizona-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #FF8D29;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.arizona-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #FFCD38;
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.arizona-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.arizona-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.arizona-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.arizona-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+/*****************************NEXT COLOR THEME****************************/
+.midnight-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.midnight-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.midnight-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #150050;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.midnight-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #3F0071;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+}
+.midnight-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #610094;
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.midnight-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.midnight-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.midnight-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.midnight-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+/*****************************cool*******************************************/
+.cool-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.cool-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #071A52;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.cool-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #086972;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.cool-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #17B978;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+}
+.cool-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #A7FF83;
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.cool-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.cool-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.cool-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.cool-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+/************************Phoenix Suns Color Theme*************************/
+.suns-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.suns-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #ff6900;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.suns-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #ef3340;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.suns-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #5f259f;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.suns-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.suns-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.suns-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.suns-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.suns-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+/*****************************NEXT COLOR THEME****************************/
+.heat-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.heat-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #98002E;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.heat-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #F9A01B;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.heat-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #000000;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+}
+.heat-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #FFF;
+    color: #100f0f;
+    text-shadow: 1px 1px rgb(94, 94, 94);
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.heat-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.heat-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.heat-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.heat-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+/*****************************cool*******************************************/
+.sonics-container-label h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 2px 3px #100f0f;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.sonics-container-header {
+    width: 100%;
+    height: 35%;
+    background-color: #173F35;
+    display: inline-block;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+}
+.sonics-first-container-element {
+    width: 100%;
+    height: 28%;
+    background-color: #9E2A2F;
+    display: inline-block;
+    border: 1px solid #100f0f;
+    border-bottom: none;
+    border-top: none;
+}
+.sonics-second-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #FFA300;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+}
+.sonics-third-container-element {
+    width: 100%;
+    height: 30%;
+    background-color: #8B634B;
+    display: inline-block;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #100f0f;
+    border-top: none;
+}
+.sonics-container-header:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.sonics-first-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.sonics-second-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
+.sonics-third-container-element:hover {
+    font-size: 2.3rem;
+    transition: 1s;
+}
